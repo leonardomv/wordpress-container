@@ -12,6 +12,7 @@
 ## Iniciar
 
 La aplicación consta de dos partes.
+
     * Base de datos (en la carpeta database).
     * Aplicación web (en la carpeta app).
 
