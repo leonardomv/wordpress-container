@@ -13,7 +13,7 @@ services:
     env_file: .env
     environment:
       - DB_HOST=host.docker.internal
-      - DB_CONNECTION=mysql
+      - DB_CONNECTION=wordpressdb-test.c5st5fhnmcyv.us-east-1.rds.amazonaws.com:3306
     ports:
       - ${APP_PORT}:80
     volumes:
