@@ -19,5 +19,4 @@ services:
     volumes:
       - ./:/var/www/html
       - ./nginx-default.conf:/etc/nginx/sites-available/default
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
+
